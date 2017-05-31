@@ -1,5 +1,0 @@
-G:\Personal\CSharp\WcfMathServiceLibrary\WcfMathServiceLibrary\bin\Debug\WcfMathServiceLibrary.dll.config
-G:\Personal\CSharp\WcfMathServiceLibrary\WcfMathServiceLibrary\bin\Debug\WcfMathServiceLibrary.dll
-G:\Personal\CSharp\WcfMathServiceLibrary\WcfMathServiceLibrary\bin\Debug\WcfMathServiceLibrary.pdb
-G:\Personal\CSharp\WcfMathServiceLibrary\WcfMathServiceLibrary\obj\Debug\WcfMathServiceLibrary.dll
-G:\Personal\CSharp\WcfMathServiceLibrary\WcfMathServiceLibrary\obj\Debug\WcfMathServiceLibrary.pdb
