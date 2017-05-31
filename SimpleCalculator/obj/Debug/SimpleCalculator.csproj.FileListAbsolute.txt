@@ -1,0 +1,8 @@
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\obj\Debug\SimpleCalculator.FormCalculator.resources
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.Cache
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+G:\Personal\CSharp\WcfMathServiceLibrary\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
