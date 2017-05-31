@@ -2,5 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/SimpleCalculator/obj/
-/SimpleCalculator/bin/
+/WcfMathServiceLibrary/bin/Debug
+/WcfMathServiceLibrary/obj/Debug
+/.vs/WcfMathService/v14/.suo
+/SimpleCalculator/bin/Debug
+/SimpleCalculator/obj/Debug
