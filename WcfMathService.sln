@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathService", "WcfMathServiceLibrary\WcfMathService.csproj", "{AC3404F1-9648-442A-A2FB-46EF16DE28D8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{CB6EB336-108D-4886-8F8E-1AF54DE849F7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AC3404F1-9648-442A-A2FB-46EF16DE28D8} = {AC3404F1-9648-442A-A2FB-46EF16DE28D8}
@@ -12,16 +10,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathServiceInterface", "WcfMathServiceInterface\WcfMathServiceInterface.csproj", "{5160CA38-B7B8-4E48-B515-3665DCC7F461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathService", "WcfMathService\WcfMathService.csproj", "{AC3404F1-9648-442A-A2FB-46EF16DE28D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CB6EB336-108D-4886-8F8E-1AF54DE849F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CB6EB336-108D-4886-8F8E-1AF54DE849F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB6EB336-108D-4886-8F8E-1AF54DE849F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,6 +26,10 @@ Global
 		{5160CA38-B7B8-4E48-B515-3665DCC7F461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5160CA38-B7B8-4E48-B515-3665DCC7F461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5160CA38-B7B8-4E48-B515-3665DCC7F461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3404F1-9648-442A-A2FB-46EF16DE28D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
