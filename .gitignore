@@ -7,3 +7,5 @@
 /.vs/WcfMathService/v14/.suo
 /SimpleCalculator/bin/Debug
 /SimpleCalculator/obj/Debug
+/WcfMathServiceInterface/obj/Debug
+/WcfMathServiceInterface/bin/Debug
