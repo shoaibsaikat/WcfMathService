@@ -4,7 +4,7 @@
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
       <xsd:import namespace="http://tempuri.org/" />
       <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfMathService" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfMathServiceInterface" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IMathService_Add_InputMessage">
@@ -52,7 +52,7 @@
   </wsdl:binding>
   <wsdl:service name="MathService">
     <wsdl:port name="BasicHttpBinding_IMathService" binding="tns:BasicHttpBinding_IMathService">
-      <soap:address location="http://localhost:8899/Design_Time_Addresses/WcfMathService/MathService/" />
+      <soap:address location="http://localhost:8899/WcfMathService/MathService/" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

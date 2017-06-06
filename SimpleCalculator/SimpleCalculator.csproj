@@ -92,7 +92,7 @@
     <None Include="Service References\WcfMathServiceReference\SimpleCalculator.WcfMathServiceReference.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WcfMathServiceReference\WcfMathService.xsd">
+    <None Include="Service References\WcfMathServiceReference\WcfMathServiceInterface.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="99b9aa5d-325d-49b9-b1a9-084ddb501431" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="eb538067-6e55-4e1e-b01f-673d18a45c02" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8899/Design_Time_Addresses/WcfMathService/MathService/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="http://localhost:8899/WcfMathService/MathService/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="c6529ad4-9bd3-4059-a8e7-7344ec3c08b8" SourceId="1" SourceUrl="http://localhost:8899/Design_Time_Addresses/WcfMathService/MathService/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="c2439dae-63c9-462c-b164-384e048196d2" SourceId="1" SourceUrl="http://localhost:8899/Design_Time_Addresses/WcfMathService/MathService/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="53106a3a-b8a1-4233-b167-95aa273052d4" SourceId="1" SourceUrl="http://localhost:8899/Design_Time_Addresses/WcfMathService/MathService/mex" />
-    <MetadataFile FileName="WcfMathService.xsd" MetadataType="Schema" ID="43e9ec71-c8dd-422f-93b3-f9f5775ee973" SourceId="1" SourceUrl="http://localhost:8899/Design_Time_Addresses/WcfMathService/MathService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="f8a40a37-0eec-4496-8e4c-1b0e10feb5d4" SourceId="1" SourceUrl="http://localhost:8899/WcfMathService/MathService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="87f0dab2-3c5b-44ea-bb95-02295b006fc9" SourceId="1" SourceUrl="http://localhost:8899/WcfMathService/MathService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="2beef959-8cf6-457f-942f-39eb911564c3" SourceId="1" SourceUrl="http://localhost:8899/WcfMathService/MathService/mex" />
+    <MetadataFile FileName="WcfMathServiceInterface.xsd" MetadataType="Schema" ID="8e06a0b2-c459-4d82-97b9-4df08effad71" SourceId="1" SourceUrl="http://localhost:8899/WcfMathService/MathService/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
