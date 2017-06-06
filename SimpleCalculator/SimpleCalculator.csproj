@@ -56,7 +56,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\MathServiceReference\Reference.cs">
+    <Compile Include="Service References\WcfMathServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -82,17 +82,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Service References\MathServiceReference\service.wsdl" />
-    <None Include="Service References\MathServiceReference\service.xsd">
+    <None Include="Service References\WcfMathServiceReference\service.wsdl" />
+    <None Include="Service References\WcfMathServiceReference\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\MathServiceReference\service1.xsd">
+    <None Include="Service References\WcfMathServiceReference\service1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\MathServiceReference\SimpleCalculator.MathServiceReference.CompositeType.datasource">
+    <None Include="Service References\WcfMathServiceReference\SimpleCalculator.WcfMathServiceReference.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\MathServiceReference\WcfMathServiceLibrary.xsd">
+    <None Include="Service References\WcfMathServiceReference\WcfMathService.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -103,16 +103,16 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\MathServiceReference\" />
+    <WCFMetadataStorage Include="Service References\WcfMathServiceReference\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\MathServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\WcfMathServiceReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\MathServiceReference\configuration.svcinfo" />
+    <None Include="Service References\WcfMathServiceReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\MathServiceReference\Reference.svcmap">
+    <None Include="Service References\WcfMathServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

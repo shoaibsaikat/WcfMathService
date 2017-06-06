@@ -8,14 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SimpleCalculator.MathServiceReference {
+namespace SimpleCalculator.WcfMathServiceReference {
     using System.Runtime.Serialization;
     using System;
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CompositeType", Namespace="http://schemas.datacontract.org/2004/07/WcfMathServiceLibrary")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CompositeType", Namespace="http://schemas.datacontract.org/2004/07/WcfMathService")]
     [System.SerializableAttribute()]
     public partial class CompositeType : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -75,29 +75,29 @@ namespace SimpleCalculator.MathServiceReference {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="MathServiceReference.IMathService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WcfMathServiceReference.IMathService")]
     public interface IMathService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMathService/Add", ReplyAction="http://tempuri.org/IMathService/AddResponse")]
-        SimpleCalculator.MathServiceReference.CompositeType Add(int a, int b);
+        SimpleCalculator.WcfMathServiceReference.CompositeType Add(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMathService/Add", ReplyAction="http://tempuri.org/IMathService/AddResponse")]
-        System.Threading.Tasks.Task<SimpleCalculator.MathServiceReference.CompositeType> AddAsync(int a, int b);
+        System.Threading.Tasks.Task<SimpleCalculator.WcfMathServiceReference.CompositeType> AddAsync(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMathService/Substract", ReplyAction="http://tempuri.org/IMathService/SubstractResponse")]
-        SimpleCalculator.MathServiceReference.CompositeType Substract(int a, int b);
+        SimpleCalculator.WcfMathServiceReference.CompositeType Substract(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMathService/Substract", ReplyAction="http://tempuri.org/IMathService/SubstractResponse")]
-        System.Threading.Tasks.Task<SimpleCalculator.MathServiceReference.CompositeType> SubstractAsync(int a, int b);
+        System.Threading.Tasks.Task<SimpleCalculator.WcfMathServiceReference.CompositeType> SubstractAsync(int a, int b);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IMathServiceChannel : SimpleCalculator.MathServiceReference.IMathService, System.ServiceModel.IClientChannel {
+    public interface IMathServiceChannel : SimpleCalculator.WcfMathServiceReference.IMathService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MathServiceClient : System.ServiceModel.ClientBase<SimpleCalculator.MathServiceReference.IMathService>, SimpleCalculator.MathServiceReference.IMathService {
+    public partial class MathServiceClient : System.ServiceModel.ClientBase<SimpleCalculator.WcfMathServiceReference.IMathService>, SimpleCalculator.WcfMathServiceReference.IMathService {
         
         public MathServiceClient() {
         }
@@ -118,19 +118,19 @@ namespace SimpleCalculator.MathServiceReference {
                 base(binding, remoteAddress) {
         }
         
-        public SimpleCalculator.MathServiceReference.CompositeType Add(int a, int b) {
+        public SimpleCalculator.WcfMathServiceReference.CompositeType Add(int a, int b) {
             return base.Channel.Add(a, b);
         }
         
-        public System.Threading.Tasks.Task<SimpleCalculator.MathServiceReference.CompositeType> AddAsync(int a, int b) {
+        public System.Threading.Tasks.Task<SimpleCalculator.WcfMathServiceReference.CompositeType> AddAsync(int a, int b) {
             return base.Channel.AddAsync(a, b);
         }
         
-        public SimpleCalculator.MathServiceReference.CompositeType Substract(int a, int b) {
+        public SimpleCalculator.WcfMathServiceReference.CompositeType Substract(int a, int b) {
             return base.Channel.Substract(a, b);
         }
         
-        public System.Threading.Tasks.Task<SimpleCalculator.MathServiceReference.CompositeType> SubstractAsync(int a, int b) {
+        public System.Threading.Tasks.Task<SimpleCalculator.WcfMathServiceReference.CompositeType> SubstractAsync(int a, int b) {
             return base.Channel.SubstractAsync(a, b);
         }
     }

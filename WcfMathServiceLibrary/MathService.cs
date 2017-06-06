@@ -4,9 +4,9 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-using WcfMathServiceLibrary;
+using WcfMathService;
 
-namespace WcfMathServiceLibrary
+namespace WcfMathService
 {
     public class MathService : IMathService
     {

@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Serialization;
 using System.ServiceModel;
 
-namespace WcfMathServiceLibrary
+namespace WcfMathService
 {
     [ServiceContract]
     public interface IMathService

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathServiceLibrary", "WcfMathServiceLibrary\WcfMathServiceLibrary.csproj", "{AC3404F1-9648-442A-A2FB-46EF16DE28D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMathService", "WcfMathServiceLibrary\WcfMathService.csproj", "{AC3404F1-9648-442A-A2FB-46EF16DE28D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{CB6EB336-108D-4886-8F8E-1AF54DE849F7}"
 	ProjectSection(ProjectDependencies) = postProject
