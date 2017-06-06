@@ -6,7 +6,7 @@ using System.ServiceModel;
 using System.Text;
 using WcfMathServiceInterface;
 
-namespace WcfMathService
+namespace WcfMathServiceLibrary
 {
     public class MathService : IMathService
     {
