@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WcfMathServiceInterface;
 
-namespace WcfMathServiceConsoleClient
+namespace WcfMathServiceIISClient
 {
     class Program
     {
@@ -15,7 +15,7 @@ namespace WcfMathServiceConsoleClient
             int choice = 1, a, b;
             ChannelFactory<IMathService> mathChannel = new ChannelFactory<IMathService>("WcfMathServiceEndpoint");
             IMathService proxy = mathChannel.CreateChannel();
-            while(true)
+            while (true)
             {
                 Console.WriteLine("Enter Choice:\n1. Add\n2.Substract");
                 choice = Convert.ToInt32(Console.ReadLine());

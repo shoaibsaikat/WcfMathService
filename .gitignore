@@ -18,3 +18,5 @@
 /packages
 /WcfMathServiceIISHost/bin
 /WcfMathServiceIISHost/obj/Debug
+/WcfMathServiceIISClient/bin/Debug
+/WcfMathServiceIISClient/obj/Debug
